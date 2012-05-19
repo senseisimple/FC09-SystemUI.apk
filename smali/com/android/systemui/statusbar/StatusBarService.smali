@@ -1314,7 +1314,7 @@
     invoke-virtual {p1, v8, v3}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 460
-    const v8, 0x7f030003
+    const v8, 0x3030003
 
     const/4 v9, 0x0
 
@@ -1322,10 +1322,11 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/android/systemui/statusbar/quickpanel/QuickSettingsView;
+    check-cast v4, Lcom/lidroid/systemui/quickpanel/PowerWidget;
 
     .line 462
-    .local v4, qsv:Lcom/android/systemui/statusbar/quickpanel/QuickSettingsView;
+    .local v4, qsv:Lcom/lidroid/systemui/quickpanel/PowerWidget;
+	invoke-virtual {v4}, Lcom/lidroid/systemui/quickpanel/PowerWidget;->setupWidget()V
     iget-object v8, p0, Lcom/android/systemui/statusbar/StatusBarService;->mExpandedView:Lcom/android/systemui/statusbar/ExpandedView;
 
     const/4 v9, 0x0
