@@ -1932,16 +1932,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
-    .line 2027
-    const/16 v0, 0xd
-
-    invoke-direct {p0, v0}, Lcom/android/systemui/statusbar/policy/StatusBarPolicy;->playTone(I)V
-
-    .line 2029
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/policy/StatusBarPolicy;->turnOnScreenWithForce()V
-
-    .line 2030
-    return-void
+	return-void
 .end method
 
 .method private addWimaxNotification(ILjava/lang/String;)V
