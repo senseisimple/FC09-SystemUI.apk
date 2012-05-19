@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.system" android:process="system" android:versionCode="10" android:versionName="2.3.6" package="com.android.systemui"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_launcher_settings" android:allowClearUserData="false" android:persistent="true">
+        <service android:name=".statusbar.StatusBarService" android:exported="false" />
+        <activity android:name=".usb.UsbStorageActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Widget.Holo.ScrollView" android:name="com.android.internal.app.ExternalMediaFormatActivity" android:excludeFromRecents="true" />
+        <activity android:theme="@android:style/Widget.Holo.ScrollView" android:name=".usb.UsbConfirmActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Widget.Holo.ScrollView" android:name=".usb.UsbPermissionActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Widget.Holo.ScrollView" android:name=".usb.UsbResolverActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+        <activity android:theme="@android:style/Widget.Holo.ScrollView" android:name=".usb.UsbAccessoryUriActivity" android:permission="android.permission.MANAGE_USB" android:exported="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" />
+    </application>
+</manifest>

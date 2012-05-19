@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Barra de estado</string>
+    <string name="lockscreen_carrier_default">(No hay servicio)</string>
+    <string name="status_bar_clear_all_button">Borrar</string>
+    <string name="status_bar_no_notifications_title">No hay notificaciones</string>
+    <string name="status_bar_ongoing_events_title">Continuo</string>
+    <string name="status_bar_latest_events_title">Notificaciones</string>
+    <string name="battery_low_title">Conecta el cargador</string>
+    <string name="battery_low_subtitle">Hay poca batería:</string>
+    <string name="battery_low_percent_format">%d%% o menos disponible.</string>
+    <string name="battery_low_why">Uso de la batería</string>
+    <string name="wimax_wifi_warning">Wi-Fi est conectado. Apaga el Wi-Fi para conectarse a la red 4G.</string>
+    <string name="wimax_ok_button">Aceptar</string>
+    <string name="proxy_error">Atención</string>
+    <string name="wimax_wifi_warning2">4G se apagar cuando el Wi-Fi est conectado. Continuar?</string>
+    <string name="quickpanel_mute">Silencio</string>
+    <string name="quickpanel_unhold">Canc. ret.</string>
+    <string name="quickpanel_speaker">Altavoz</string>
+    <string name="quickpanel_end">Finalizar</string>
+</resources>

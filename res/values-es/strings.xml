@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Barra de estado</string>
+    <string name="status_bar_clear_all_button">Borrar</string>
+    <string name="status_bar_no_notifications_title">No tienes notificaciones</string>
+    <string name="status_bar_ongoing_events_title">Entrante</string>
+    <string name="status_bar_latest_events_title">Notificaciones</string>
+    <string name="battery_low_title">Conecta el cargador</string>
+    <string name="battery_low_subtitle">Se está agotando la batería:</string>
+    <string name="battery_low_percent_format">%d%% o menos disponible</string>
+    <string name="battery_low_why">Uso de la batería</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Sonido</string>
+    <string name="quickpanel_sound_vibration_text">"Sonido
+Vibración"</string>
+    <string name="quickpanel_silent_text">Silencio</string>
+    <string name="quickpanel_vibration_text">Vibración</string>
+    <string name="quickpanel_rotation_text">"Rotación
+autom"</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="lowbattery">Batería baja. Cargue la batería pronto para seguir usando el teléfono</string>
+    <string name="critical_lowbattery">Batería muy baja. Cargue el teléfono ahora para seguir usándolo</string>
+    <string name="dischargetitle">Información</string>
+    <string name="dischargebattery">Carga en pausa. La temperatura de la batería es demasiado alta o demasiado baja</string>
+    <string name="fullchargetitle">Información</string>
+    <string name="fullchargebattery">"Batería totalmente cargada.
+Desenchufe el cargador"</string>
+</resources>

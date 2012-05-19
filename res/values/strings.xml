@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Status Bar</string>
+    <string name="lockscreen_carrier_default">(No service)</string>
+    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_no_notifications_title">No notifications</string>
+    <string name="status_bar_ongoing_events_title">Ongoing</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Please connect charger</string>
+    <string name="battery_low_subtitle">The battery is getting low:</string>
+    <string name="battery_low_percent_format">%d%% or less remaining.</string>
+    <string name="battery_low_why">Battery use</string>
+    <string name="wimax_wifi_warning">Wi-Fi is now connected. Turn Wi-Fi off to connect 4G network.</string>
+    <string name="wimax_ok_button">OK</string>
+    <string name="wimax_cancel_button">Cancel</string>
+    <string name="proxy_error">Attention</string>
+    <string name="wimax_wifi_warning2">4G will turn off when Wi-Fi is connected. Continue?</string>
+    <string name="wimax_connected">4G network connected</string>
+    <string name="wimax_disconnected">4G network disconnected</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Sound</string>
+    <string name="quickpanel_sound_vibration_text">"Sound
+Vibration"</string>
+    <string name="quickpanel_silent_text">Silent</string>
+    <string name="quickpanel_vibration_text">Vibration</string>
+    <string name="quickpanel_rotation_text">"Auto
+rotation"</string>
+    <string name="quickpanel_wimax_text">4G</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="quickpanel_mute">Mute</string>
+    <string name="quickpanel_unhold">Unhold</string>
+    <string name="quickpanel_speaker">Speaker</string>
+    <string name="quickpanel_end">End</string>
+    <string name="lowbattery">Battery low. Recharge phone soon to keep using</string>
+    <string name="critical_lowbattery">Battery critically low. Plug phone in now to keep using</string>
+    <string name="dischargetitle">Info</string>
+    <string name="dischargebattery">Charging paused. Battery temperature too high or too low</string>
+    <string name="fullchargetitle">Info</string>
+    <string name="fullchargebattery">"Battery fully charged.
+Unplug charger"</string>
+    <string name="usb_accessory_permission_prompt">Allow the application %1$s to access the USB accessory?</string>
+    <string name="usb_accessory_confirm_prompt">Open %1$s when this USB accessory is connected?</string>
+    <string name="usb_accessory_uri_prompt">No installed applications work with this USB accessory. Learn more about this accessory at %1$s</string>
+    <item type="string" name="APKTOOL_DUMMY_0028">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0029">false</item>
+    <item type="string" name="APKTOOL_DUMMY_002a">false</item>
+</resources>

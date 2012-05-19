@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Title" parent="@android:style/Theme.Holo.Light.Panel">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/notification_header_text_color</item>
+    </style>
+    <style name="TextAppearance.StatusBar.IntruderAlert" parent="@android:style/Theme.Holo.Light.Panel" />
+</resources>

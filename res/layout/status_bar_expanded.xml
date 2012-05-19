@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandedView android:orientation="vertical" android:focusable="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.android.systemui.statusbar.NotificationLinearLayout android:orientation="vertical" android:id="@id/notificationLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/quickpanel_mini_container" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/quickpanel_call" android:visibility="gone" android:layout_width="fill_parent" layout="@layout/quick_panel_call" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/tw_color001" android:layout_gravity="center_vertical" android:id="@id/plmnLabel" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/tw_color001" android:layout_gravity="center_vertical" android:id="@id/spnLabel" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/clear_all_button" android:background="@drawable/btn_default_small" android:layout_width="75.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="5.0dip" android:text="@string/status_bar_clear_all_button" style="?android:attr/buttonStyleSmall" />
+                </LinearLayout>
+                <TextView android:textSize="14.669983dip" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/noNotificationsTitle" android:background="@drawable/quickpanel_title_background" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_no_notifications_title" />
+                <TextView android:textSize="14.669983dip" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/ongoingTitle" android:background="@drawable/quickpanel_title_background" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_ongoing_events_title" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ongoingItems" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.669983dip" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/latestTitle" android:background="@drawable/quickpanel_title_background" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_latest_events_title" />
+                <LinearLayout android:orientation="vertical" android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.android.systemui.statusbar.NotificationLinearLayout>
+        </ScrollView>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/title_bar_shadow" android:scaleType="fitXY" />
+    </FrameLayout>
+</com.android.systemui.statusbar.ExpandedView>

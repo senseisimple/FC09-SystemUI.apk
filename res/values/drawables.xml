@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="shade_bgcolor">#ff282828</item>
+    <item type="drawable" name="notification_header_text_color">#ff969696</item>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+</resources>
