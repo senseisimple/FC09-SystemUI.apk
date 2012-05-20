@@ -1932,7 +1932,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
-	return-void
+    return-void
 .end method
 
 .method private addWimaxNotification(ILjava/lang/String;)V

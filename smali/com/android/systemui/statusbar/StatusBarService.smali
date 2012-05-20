@@ -1326,7 +1326,7 @@
 
     .line 462
     .local v4, qsv:Lcom/lidroid/systemui/quickpanel/PowerWidget;
-   invoke-virtual {v4}, Lcom/lidroid/systemui/quickpanel/PowerWidget;->setupWidget()V
+  invoke-virtual {v4}, Lcom/lidroid/systemui/quickpanel/PowerWidget;->setupWidget()V
     iget-object v8, p0, Lcom/android/systemui/statusbar/StatusBarService;->mExpandedView:Lcom/android/systemui/statusbar/ExpandedView;
 
     const/4 v9, 0x0
